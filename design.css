@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+a:link {color:#1E90FF;text-decoration:underline;}      /* unvisited link */
+a:hover {color:#00FFFF;border-top:3px solid #FF7A02; cursor:url(images/donald-trump.png),crosshair;}  /* mouse over link */
+a:active {color:#DC143C;}  /* selected link */
+a:visited {color:#FF4500;}
+body {
+	background-image: url("images/Trump.jpg");
+	background-color: #00008B;
+	font-family:‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size:200%;
+	color:#B22222;
+	cursor:url(images/Head.gif),pointer;
+	overflow:auto;
+  padding-bottom: 10px;
+}
+p	{
+	text-indent:hanging;
+}
+h1 {
+	color:white;
+	text-align:center;
+	text-decoration:underline;
+    text-shadow: 3px 3px 2px red, 0 0 15px darkblue, 0 0 5px DeepSkyBlue;
+    line-height: 0.1;
+    
+}
+img { 
+    float: right;
+    margin: 0 0 10px 10px;
+   background:#00FFFF;
+   border:groove 8px;
+}
+
+
+
+#wrapper {
+     width: 1200px;
+     margin: 0 auto;
+     padding: 0;
+     overflow: auto;
+     font-size: 24px;
+}
+
+#leftcolumn {
+     width: 500px;
+     background-color:#FFA07A;
+      opacity: 0.9;
+    filter: alpha(opacity=90);
+     padding: 25px;
+     margin: 0;
+     display: block;
+	text-align: left;
+	box-shadow: 0px 15px 25px #DAA520;
+	border-radius: 15px;
+	border:#8A2BE2 15px outset;
+     position: absolute;
+     font-weight: bold;
+}
+
+#rightcolumn {
+     width: 500px;
+     background-color:#87CEFA;
+     padding: 25px;
+     display: block;
+     float: right;
+	box-shadow: 0px 15px 25px #DAA520;
+	border-radius: 15px;
+	border:#FF0000 15px outset;
+}
+
+#footer {
+    position: relative;
+  margin-top: 40px;
+  padding: 0.1px 4px;
+  height: 50px;
+  clear:both;
+  background-color: #efefef;
+   opacity: 0.8;
+    filter: alpha(opacity=80);
+   text-align: center;
+   font-size: 18px;
+}
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
